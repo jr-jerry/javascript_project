@@ -11,7 +11,7 @@ function calculate(passValue) {
         input.value = input.value.toString() + passValue;
 
     }
-    else if (passValue === "^") {
+    else if (passValue === "DEL") {
         input.value = input.value.toString().slice(0, -1);
     }
     else if (passValue === "c") {

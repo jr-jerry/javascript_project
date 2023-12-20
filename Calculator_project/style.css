@@ -7,12 +7,12 @@ body{
     background-color:rgba(117, 106, 106, 0.349);
 }
 main{
-    height:100vh;
-    width: 100vw;
+    height:100vh;/*680px*/
+    width: 100vw;/*1212*/
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:black;
+    /* background-color:black; */
 }
 .flex-center{
     display:flex;
@@ -22,16 +22,21 @@ main{
 .calc{
     padding:5px ;
     background-color:rgba(0, 0, 0, 0.575);
-    height: 65%;
-    width: 20%;
-    border:1px solid transparent;
-    border-radius: 20px;
+    height: 65%;/*539*/
+    width: 20%;/*242.4*/
+    min-width: 320px;
+    min-height:529px;
+
+    /* border:1px solid transparent;
+    border-radius: 20px; */
+    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.507);
 }
 .calBottom{
     /* background-color: aqua; */
     display:flex;
     align-items: center;
     gap: 10px 20px;
+    /* 371height  269width */
     height:69%;
     justify-content: center;
     flex-wrap:wrap;
@@ -56,8 +61,8 @@ input[type="text"]{
     
 }
 button{
-    height:60px;
-    width:60px;
+    height:15%;
+    width:20%;
     border:2px solid transparent;
     border-radius:100px;
     cursor: pointer;
